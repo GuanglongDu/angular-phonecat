@@ -17,7 +17,6 @@ import '../phone-detail/phone-detail.module';
 import '../phone-detail/phone-detail.component';
 import '../phone-list/phone-list.module';
 import '../phone-list/phone-list.component';
-
 import { Component, OnInit } from '@angular/core';
 import { UpgradeModule } from '@angular/upgrade/static';
 @Component({
