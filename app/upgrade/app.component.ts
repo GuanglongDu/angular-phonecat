@@ -23,7 +23,7 @@ import { UpgradeModule } from '@angular/upgrade/static';
   selector: 'app-root',
   template: `<div ng-view class="view-frame"></div>`
 })
-export class AppComponent4 implements OnInit {
+export class AppComponent5 implements OnInit {
 
   constructor(private upgrade: UpgradeModule) {}
 
