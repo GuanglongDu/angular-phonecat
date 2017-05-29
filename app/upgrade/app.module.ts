@@ -3,12 +3,12 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { AppComponent } from './app.component';
+import { AppComponent8 } from './app.component';
 import { UpgradeModule } from '@angular/upgrade/static';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent8
   ],
   imports: [
     BrowserModule,
@@ -17,6 +17,6 @@ import { UpgradeModule } from '@angular/upgrade/static';
     UpgradeModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent8]
 })
 export class AppModule { }
