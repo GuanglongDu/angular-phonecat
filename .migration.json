@@ -1,0 +1,45 @@
+{
+  "migrate_from": "30c0519f-380d-4b8a-966c-53e15d1e2d64",
+  "steps": [
+    {
+      "step": "migrate2Project",
+      "status": "success",
+      "message": "Migrate files successed"
+    },
+    {
+      "step": "migrateBower",
+      "status": "success",
+      "message": "Update package.json successed"
+    },
+    {
+      "step": "npmInstall",
+      "status": "success",
+      "message": "npm install successed"
+    },
+    {
+      "step": "configVendor",
+      "status": "success"
+    },
+    {
+      "step": "createUpgradeShell",
+      "status": "success"
+    }
+  ],
+  "ng1root": "app",
+  "mappings": [
+    {
+      "module": "core",
+      "type": "module",
+      "name": "core",
+      "ng1": "app/core/core.module.js",
+      "ng2": "src-upgrade/app/core/core.module.ts"
+    },
+    {
+      "module": "phoneDetail",
+      "type": "module",
+      "name": "phoneDetail",
+      "ng1": "app/phone-detail/phone-detail.module.js",
+      "ng2": "src-upgrade/app/phone-detail/phone-detail.module.ts"
+    }
+  ]
+}
