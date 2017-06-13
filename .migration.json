@@ -47,6 +47,13 @@
       "name": "phoneList",
       "ng1": "app/phone-list/phone-list.module.js",
       "ng2": "src-upgrade/app/phone-list/phone-list.module.ts"
+    },
+    {
+      "module": "core.phone",
+      "type": "module",
+      "name": "core.phone",
+      "ng1": "app/core/phone/phone.module.js",
+      "ng2": "src-upgrade/app/core/phone/phone.module.ts"
     }
   ]
 }
