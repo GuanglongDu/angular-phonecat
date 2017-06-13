@@ -40,6 +40,13 @@
       "name": "phoneDetail",
       "ng1": "app/phone-detail/phone-detail.module.js",
       "ng2": "src-upgrade/app/phone-detail/phone-detail.module.ts"
+    },
+    {
+      "module": "phoneList",
+      "type": "module",
+      "name": "phoneList",
+      "ng1": "app/phone-list/phone-list.module.js",
+      "ng2": "src-upgrade/app/phone-list/phone-list.module.ts"
     }
   ]
 }
